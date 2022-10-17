@@ -1,0 +1,32 @@
+.corpoModalLogin {
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+}
+
+.corpoModalLogin form {
+  width: 500px;
+  max-width: 100%;
+}
+.corpoModalLogin form :nth-child(2n-1){
+  margin-bottom: 10px;
+}
+.corpoModalLogin form .acoes {
+  margin-top: 48px;
+  text-align: center;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.corpoModalLogin form .acoes a{
+  
+color: #002F52;
+text-decoration-line: underline;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+
+}
